@@ -17,6 +17,6 @@ def Fibonacci(n):
 Fib_num = int(input("Enter a Fibonacci number: "))
 while Fib_num >= 1:
     print(Fibonacci(Fib_num)) 
-    Fib_num = int(input("Enter a Fibonacci number: "))
+    Fib_num = int(input("Enter a Fibonacci numbers: "))
 
 #This code is contributed by Saket Modi 
