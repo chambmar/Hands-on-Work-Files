@@ -4,7 +4,7 @@ def bubble_sort(list):
     while is_sorted == False:
         swaps = 0
         for i in range(len(list) - 1):
-            if sorted_list[i] > sorted_list[i + 1]: # swap
+            if sorted_list[i] < sorted_list[i + 1]: # swap
                 temp = sorted_list[i]
                 sorted_list[i] = sorted_list[i + 1]
                 sorted_list[i + 1] = temp
@@ -15,4 +15,4 @@ def bubble_sort(list):
     return sorted_list
 
 print(bubble_sort([2, 1, 3]))
-00
+
